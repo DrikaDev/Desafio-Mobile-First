@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&family=Cookie&family=Courgette&family=Dancing+Script:wght@400;500;600;700&family=Delius&family=Fredericka+the+Great&family=Heebo:wght@100;200;300;600;700;800&family=Inter:wght@300;400;500;600&family=Mochiy+Pop+One&family=Montserrat+Alternates:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Nanum+Gothic:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Pacifico&family=Rampart+One&family=Roboto:wght@100;500;700;900&family=Rubik+Moonrocks&family=Style+Script&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Site de Compras</title>
+</head>
+<body>
+    <main>
+        <div class="menu">
+            <figure>
+                <img src="img/1.png" alt="Menu hamburguer">
+            </figure>
+            <h3>flavo</h3>
+            <figure>
+                <img src="img/2.png" alt="Sacolinha de compras">
+            </figure>
+        </div>
+        <figure class="Product_Photo">
+            <img src="img/intensity.png" alt="Imagem do produto">
+        </figure>
+        <section class="Product">
+            <div class="Product_Title">
+                <h1>Passion</h1>
+                <p>$15</p>
+            </div>
+            <div class="Product_About">
+                <h2>What's inside</h2>
+                <p>Chili, oregano, safran, paprika</p>
+                <h2>Why we love it</h2>
+                <p>This one will add a little savoury 
+                    flavour to any food and turn any 
+                    meal to a culinary masterpiece.</p>
+            </div>
+            <div class="Product_volume">
+                <form action="" class="Product_volume_buttons">
+                    <div>
+                        <input type= "radio" id= "bag" name= "bag" value= "bag">
+                        <label for= "bag">Bag (75g)</label>
+                    </div>
+                    <div>
+                        <input type= "radio" id= "jar" name= "jar" value= "jar">
+                        <label for= "jar">Jar (150g)</label>
+                    </div>
+                </form>
+            </div>
+            <div class="Product_quantity_buttons">
+                <button onclick="resetCounter()">-</button>
+                <p id="counter-label">0</p>
+                <button onclick="incrementClick()">+</button>
+            </div>
+            <div class="Buying_button">
+                <button>Add to cart</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
