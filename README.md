@@ -2,7 +2,7 @@
 
 ## Exercício para treinar Responsive Layout pelo curso do Vai Na Web.
 
-Site de compras criado direto para o responsivo.\
+Site de compras criado direto para o responsivo. Não tem versão Desktop!\
 A foto à esquerda é a imagem de como o site deveria ficar, e a foto à direita é como o site ficou sendo visualizado em um dispositivo mobile.
 
 
